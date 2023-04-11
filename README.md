@@ -24,7 +24,7 @@ You create the Lambda Function which hosts the business logic code and HTML user
 5. Add lambda layers, go to Layers section, click on "add a layer" buttom, select "Specify an ARN". finally add this two layers.
    a. arn:aws:lambda:eu-west-1:898466741470:layer:psycopg2-py38:1
    b. arn:aws:lambda:eu-west-1:580247275435:layer:LambdaInsightsExtension:33
-5. The Lambda function is ready. Let’s now configure the database storage.
+6. The Lambda function is ready. Let’s now configure the database storage.
 
 
 
